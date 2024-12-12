@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=VT323&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#E5E4E2;
+  }
+  
+  header {
+    display: flex;
+    background-color: #000068;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: white;
+    font-family: "Rubik Iso", system-ui;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  header #logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  nav {
+    width: 30%;
+    background-color: #000068;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 30px;
+    font-family: "Rubik Iso", system-ui; 
+  }
+
+  nav ul li a:hover {
+    color: #FFD700; 
+  }
+
+  main {
+    padding-top: 20px; 
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000068;;
+    font-family: "Rubik Iso", system-ui;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    text-align: center;
+    color: #000068;;
+    font-family: "Rubik Iso", system-ui;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #recent {
+    text-align: center;
+  }
+  
+  #users, #posts, #todos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  #recent-users {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 40px; 
+    margin-left: 15%;
+  }
+  
+  .image-container {
+    flex-shrink: 0; 
+    max-width: 400px; 
+    margin: 20px;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .user-card, .todo-card {
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    border: 2px solid #000068; 
+    background-color: white; 
+  }
+
+  .post-card {
+    width: 100%; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border: 2px solid #000068;
+    background-color: white;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #user-posts {
+    width: 95%;
+    margin-left: 35px; /* Remove the margin */
+    margin-right: 35px;
+    text-align: center; /* Align the content to the left */
+  }
+  
+  p {
+    color: #000068;
+    font-family: "VT323", monospace;
+    margin: 16px 0;
+    font-size: 24px;
+  }
+  
+  .post-card h3, .todo-card h3 {
+    color: #000068;
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    font-weight: 200px;
+  }
+
+  .rubik-iso-regular {
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
